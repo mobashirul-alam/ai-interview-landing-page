@@ -1,8 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AI Interview Landing Page
+
+A modern, responsive landing page for an AI-powered interview preparation platform. Built with Next.js 16, TypeScript, and Tailwind CSS.
+
+## Features
+
+-   🎯 Interactive Chat Demo
+-   💡 Feature Showcase
+-   🔄 How It Works Section
+-   💰 Pricing Plans
+-   📊 Statistics Display
+-   💬 Testimonials
+-   ❓ FAQ Section
+-   🎨 Modern UI Components
+-   🌓 Light/Dark Theme Support
+
+## Tech Stack
+
+-   [Next.js 16](https://nextjs.org/) - React framework
+-   [TypeScript](https://www.typescriptlang.org/) - Type safety
+-   [Tailwind CSS](https://tailwindcss.com/) - Styling
+-   [Shadcn UI](https://ui.shadcn.com/) - UI Components
+-   [Geist Font](https://vercel.com/font) - Typography
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/ai-interview-landing-page.git
+cd ai-interview-landing-page
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+3. Run the development server:
 
 ```bash
 npm run dev
@@ -10,27 +49,27 @@ npm run dev
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+├── app/                # Next.js app directory
+├── components/         # React components
+│   ├── ui/            # Reusable UI components
+│   └── ...            # Feature components
+├── lib/               # Utility functions
+└── public/            # Static assets
+```
 
-## Learn More
+## Deployment
 
-To learn more about Next.js, take a look at the following resources:
+The project is optimized for deployment on [Vercel](https://vercel.com). To deploy your own instance:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Push your code to a GitHub repository
+2. Import your repository on Vercel
+3. Let Vercel handle the rest!
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+For other deployment options, check out the [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying).
